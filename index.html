@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="description" content="Portfolio of Sidharth Gupta, a Computer Science and Engineering student exploring frontend development and programming." />
+  <title>Sidharth Gupta | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Sidharth Gupta home"><span class="brand-mark">SG</span><span>Sidharth Gupta<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+        <a class="nav-github" href="https://github.com/sidharthgupta1826" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> Computer Science & Engineering Student</div>
+        <h1>Hi, I'm <span class="blue-text">Sidharth Gupta.</span><br>Building my path in tech.</h1>
+        <p class="hero-description">I'm a first-year B.Tech CSE student exploring frontend development, programming, and building useful digital experiences one project at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">→</span></a>
+          <a class="button button-secondary" href="https://github.com/sidharthgupta1826" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.08c-3.1.67-3.76-1.32-3.76-1.32-.5-1.28-1.24-1.62-1.24-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 1.7 2.62 1.21 3.26.93.1-.72.39-1.21.71-1.49-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.61 5.23-5.1 5.51.4.35.76 1.02.76 2.06V22c0 .29.2.63.77.52A11.1 11.1 0 0 0 12 .9Z"/></svg> View GitHub</a>
+        </div>
+        <div class="hero-meta"><span><span class="meta-icon">⌁</span> Jamshedpur, India</span><span class="meta-divider"></span><span>Open to learning & collaboration</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="art-glow"></div>
+        <div class="code-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>developer.js</span><span class="window-menu">•••</span></div>
+          <div class="code-content">
+            <div><span class="line-no">01</span><span class="code-purple">const</span> developer = {</div>
+            <div><span class="line-no">02</span>&nbsp;&nbsp;name: <span class="code-green">'Sidharth Gupta'</span>,</div>
+            <div><span class="line-no">03</span>&nbsp;&nbsp;field: <span class="code-green">'Computer Science'</span>,</div>
+            <div><span class="line-no">04</span>&nbsp;&nbsp;skills: [</div>
+            <div><span class="line-no">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'HTML'</span>, <span class="code-green">'CSS'</span>,</div>
+            <div><span class="line-no">06</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'JavaScript'</span>, <span class="code-green">'React'</span>,</div>
+            <div><span class="line-no">07</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'C'</span></div>
+            <div><span class="line-no">08</span>&nbsp;&nbsp;],</div>
+            <div><span class="line-no">09</span>&nbsp;&nbsp;mindset: <span class="code-green">'Always learning'</span></div>
+            <div><span class="line-no">10</span>};<span class="cursor"></span></div>
+          </div>
+          <div class="code-footer"><span><span class="footer-check">✓</span> Ready to build</span><span>UTF-8&nbsp;&nbsp; JavaScript</span></div>
+        </div>
+        <div class="float-chip chip-html"><span class="chip-symbol">&lt;/&gt;</span><span><b>Frontend</b><small>Web experiences</small></span></div>
+        <div class="float-chip chip-learning"><span class="chip-symbol">↗</span><span><b>Always learning</b><small>One step at a time</small></span></div>
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+      </div>
+    </section>
+
+    <section class="quick-strip container" aria-label="Profile summary">
+      <div class="quick-item"><span class="quick-icon">⌘</span><div><strong>Frontend</strong><span>HTML · CSS · JavaScript · React</span></div></div>
+      <div class="quick-item"><span class="quick-icon">{"}"</span><div><strong>Programming</strong><span>C programming fundamentals</span></div></div>
+      <div class="quick-item"><span class="quick-icon">✦</span><div><strong>Growth mindset</strong><span>Learning through building</span></div></div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><span class="section-kicker">A LITTLE ABOUT ME</span><h2>Curious by nature.<br><span class="blue-text">Driven to create.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy"><p>I'm Sidharth, a first-year Computer Science and Engineering student at RVS College of Engineering, Jamshedpur. I'm developing my skills in web technologies and programming while exploring how ideas become useful products.</p><p>I enjoy learning by doing, improving my fundamentals, and connecting with other people who are excited about technology. I'm also interested in participating in hackathons and collaborating on projects as I grow.</p><a class="text-link" href="https://github.com/sidharthgupta1826" target="_blank" rel="noreferrer">Explore my GitHub profile <span aria-hidden="true">↗</span></a></div>
+        <div class="about-card"><div class="about-card-top"><span class="profile-avatar">SG</span><div><strong>Sidharth Gupta</strong><span>Student Developer</span></div><span class="verified-mark" title="Personal portfolio">✦</span></div><div class="about-fact"><span>Currently studying</span><strong>B.Tech — Computer Science & Engineering</strong></div><div class="about-fact"><span>College</span><strong>RVS College of Engineering</strong></div><div class="about-fact"><span>Based in</span><strong>Jamshedpur, India</strong></div><div class="about-card-bottom"><span class="status-dot"></span> Focused on learning and building</div></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading centered"><span class="section-kicker">MY TOOLKIT</span><h2>Skills I'm building with</h2><p>Technologies I currently work with and continue to develop.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-logo html-logo">5</div><h3>HTML</h3><p>Semantic page structure</p></article>
+          <article class="skill-card"><div class="skill-logo css-logo">3</div><h3>CSS</h3><p>Styling & responsive layouts</p></article>
+          <article class="skill-card"><div class="skill-logo js-logo">JS</div><h3>JavaScript</h3><p>Interactive web experiences</p></article>
+          <article class="skill-card"><div class="skill-logo react-logo">✳</div><h3>React</h3><p>Component-based UI</p></article>
+          <article class="skill-card"><div class="skill-logo c-logo">C</div><h3>C Programming</h3><p>Programming fundamentals</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="projects-heading"><div class="section-heading"><span class="section-kicker">SELECTED WORK</span><h2>Projects & experiments</h2><p>Follow along as I turn learning into practical work.</p></div><a class="button button-secondary" href="https://github.com/sidharthgupta1826?tab=repositories" target="_blank" rel="noreferrer">Browse repositories <span aria-hidden="true">↗</span></a></div>
+      <div class="project-empty"><div class="empty-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 5.5v15M8 7h8M8 10h6"/></svg></div><h3>My project showcase is growing</h3><p>I’m working on building and documenting projects. Visit my GitHub profile to see the repositories currently available.</p><a class="button button-primary" href="https://github.com/sidharthgupta1826?tab=repositories" target="_blank" rel="noreferrer">See my repositories <span aria-hidden="true">→</span></a><span class="project-note">No demo projects or achievements have been added here.</span></div>
+    </section>
+
+    <section class="section community-section">
+      <div class="container community-card"><div class="community-copy"><span class="section-kicker">GROWING TOGETHER</span><h2>Good things happen<br>when we <span class="blue-text">build together.</span></h2><p>I'm interested in learning from the developer community, joining hackathons, and collaborating with people who like solving real problems.</p><a class="button button-primary" href="https://github.com/sidharthgupta1826" target="_blank" rel="noreferrer">Connect on GitHub <span aria-hidden="true">↗</span></a></div><div class="community-art"><div class="community-circle circle-a"></div><div class="community-circle circle-b"></div><div class="community-symbol">&lt;<span>/</span>&gt;</div><div class="community-label label-one">LEARN</div><div class="community-label label-two">BUILD</div><div class="community-label label-three">REPEAT</div></div></div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="section-heading centered"><span class="section-kicker">GET IN TOUCH</span><h2>Let's connect.</h2><p>Have an idea, want to collaborate, or just want to talk tech? Find me here.</p></div>
+      <div class="contact-grid">
+        <a class="contact-card" href="https://github.com/sidharthgupta1826" target="_blank" rel="noreferrer"><span class="contact-icon github-icon">⌘</span><span><strong>GitHub</strong><small>@sidharthgupta1826</small></span><span class="contact-arrow">↗</span></a>
+        <a class="contact-card" href="https://www.linkedin.com/in/sidharth-gupta-556218382/" target="_blank" rel="noreferrer"><span class="contact-icon linkedin-icon">in</span><span><strong>LinkedIn</strong><small>sidharth-gupta-556218382</small></span><span class="contact-arrow">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">SG</span><span>Sidharth Gupta<span class="brand-dot">.</span></span></a><span>Designed and built with care.</span><a href="#home" class="back-top">Back to top ↑</a></div><div class="container footer-bottom">© <span id="year"></span> Sidharth Gupta. Keep learning. Keep building.</div></footer>
+</body>
+</html>
