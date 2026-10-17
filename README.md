@@ -56,7 +56,7 @@ For a local development server, you can use the **Live Server** extension in Vis
 ## Personal details used
 
 - **Name:** Sidharth Gupta
-- **Education:** First-year B.Tech CSE, RVS College of Engineering, Jamshedpur
+- **Education:** First-year B.Tech CSE, RVS College of Engineering and Technology, Jamshedpur
 - **Skills:** HTML, CSS, JavaScript, React, C programming
 - **GitHub:** https://github.com/sidharthgupta1826
 - **LinkedIn:** https://www.linkedin.com/in/sidharth-gupta-556218382/
